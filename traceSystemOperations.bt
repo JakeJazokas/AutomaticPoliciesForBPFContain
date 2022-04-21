@@ -898,8 +898,8 @@ tracepoint:signal:signal_generate
 kretfunc:cap_capable
 /comm == str($1)/
 {
-	// TODO convert to int
-    printf("Capability: Program: %s, CapInt: %d, CapName: %s, Options: %d, Return: %d\n", comm, args->cap, @cap[args->cap], args->opts, retval);
+	$capInt = (int32) args->cap;
+    printf("Capability: Program: %s, CapInt: %d, CapName: %s, Options: %d, Return: %d\n", comm, $capInt, @cap[$capInt], args->opts, retval);
 }
 
 // IPC - Pipe Functions
