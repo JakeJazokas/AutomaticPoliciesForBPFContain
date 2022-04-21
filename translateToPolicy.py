@@ -69,7 +69,7 @@ class TraceToPolicy():
         self.outputPolicyStr += self.generate_ipc(traceFile.pipeTraces, traceFile.sockTraces, traceFile.procName, True)
     
     def generate_policy_restrict(self, traceFile):
-        self.outputPolicyStr += f"restrictions:\n"
+        self.outputPolicyStr += f"deny:\n"
         self.outputPolicyStr += self.generate_device_access(traceFile.vfsTraces, False)
         self.outputPolicyStr += self.generate_numbered_device_access(traceFile.numberedTraces, False)
         self.outputPolicyStr += self.generate_read_write_execute_modify_access(traceFile, False)
@@ -580,6 +580,12 @@ class GenerateResults():
     def __init__(self, traceFilePath, outputPolicyPath, procName, procPath) -> None:
         self.traceFileObject = TraceFile(traceFilePath, procName, procPath)
         self.policyStr = TraceToPolicy(self.traceFileObject).outputPolicyStr
+        # Dont include restrictions section if no restrictions found
+        splitPolicyNoNewlines = [f"{l}\n" for l in self.policyStr.splitlines() if l]
+        splitPolicyNoNewlines = splitPolicyNoNewlines[0:-1] if splitPolicyNoNewlines[-1] == 'deny:\n' else splitPolicyNoNewlines
+        # Add newline before 'allow:'
+        splitPolicyNoNewlines.insert(splitPolicyNoNewlines.index('allow:\n'), '\n')
+        self.policyStr = ''.join(splitPolicyNoNewlines)
         with open(outputPolicyPath, "w") as fout:
             fout.write(self.policyStr)
 
