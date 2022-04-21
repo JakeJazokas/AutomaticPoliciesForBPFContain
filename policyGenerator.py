@@ -3,6 +3,11 @@ import time
 import argparse
 from translateToPolicy import GenerateResults
 
+'''
+Example usage: python policyGenerator.py -c testAllCap3.txt -o allCaptest.yml -p bash -f /usr/bin/bash -t 20
+    - Note: Make sure you are in a root shell (sudo bash)
+'''
+
 # Functions to ensure file types are correct
 def text_file(value):
     if not value.endswith('.txt'):
@@ -23,11 +28,14 @@ args = parser.parse_args()
 
 open_outfile = open(args.capture_file, "wb")
 
-bpftrace_process = subprocess.Popen(['sudo', 'bpftrace', '--unsafe', 'traceSystemOperations.bt', args.program], stdout=open_outfile)
+bpftrace_process = subprocess.Popen(['bpftrace', 'traceSystemOperations.bt', args.program], stdout=open_outfile)
 
 # Kill the tracing process after t seconds
 time.sleep(args.time)
-bpftrace_process.kill()
+bpftrace_process.terminate() 
+bpftrace_process.wait()
+
+open_outfile.close()
 
 # Translate the traced operations to a BPFContain security policy
 GenerateResults(args.capture_file, args.output_file, args.program, args.full_path)

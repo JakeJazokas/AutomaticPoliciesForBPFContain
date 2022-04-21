@@ -275,9 +275,10 @@ class TraceToPolicy():
                         execute_paths.append(re.findall(rename_regex, line)[0][0])  
                 elif len(re.findall(remove_regex, line)):
                     if(int(re.findall(remove_regex, line)[0][1]) >= 0):
-                        # Write + Execute
+                        # Write + Execute + Access
                         write_paths.append(re.findall(remove_regex, line)[0][0])
                         execute_paths.append(re.findall(remove_regex, line)[0][0])
+                        access_paths.append(re.findall(remove_regex, line)[0][0])
             if(not allowBool):
                 if len(re.findall(read_regex, line)):
                     # Check if it returned succesfully
@@ -329,9 +330,10 @@ class TraceToPolicy():
                         execute_paths.append(re.findall(rename_regex, line)[0][0])  
                 elif len(re.findall(remove_regex, line)):
                     if(int(re.findall(remove_regex, line)[0][1]) < 0):
-                        # Write + Execute
+                        # Write + Execute + Access
                         write_paths.append(re.findall(remove_regex, line)[0][0])
                         execute_paths.append(re.findall(remove_regex, line)[0][0])
+                        access_paths.append(re.findall(remove_regex, line)[0][0])
         # Add allowed/denied file operations for given paths
         for path in read_paths:
             path_access_map[path] = ["r"]

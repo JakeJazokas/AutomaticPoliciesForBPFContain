@@ -301,11 +301,12 @@ tracepoint:syscalls:sys_exit_faccessat,
 tracepoint:syscalls:sys_exit_faccessat2
 /@accessFilenamePtr[tid]/
 {
-	//printf("VFS: Path: %s", @accessFilename[tid]);
-	printf("VFS: Path: ");
-	system("realpath -z %s", @accessFilename[tid]); // We need this because the path is relevative sometimes
-
-	printf(", Program: %s, Tid: %d, Mode: Access, Return: %d\n", comm, tid, args->ret);
+	// Ignore relative paths
+	if(strncmp("/", @accessFilename[tid], 1) == 0){
+		printf("VFS: Path: %s", @accessFilename[tid]);
+		printf(", Program: %s, Tid: %d, Mode: Access, Return: %d\n", comm, tid, args->ret);
+	}
+	
 	delete(@accessFilename[tid]);
 	delete(@accessFilenamePtr[tid]);
 }
