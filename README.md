@@ -24,20 +24,22 @@ This program allows for the automatic generation of [BPFContain](https://github.
 
 The file `policyGenerator.py` can be used to run both the tracing and translation programs. 
 - First, make sure you're using a root shell, which can be accomplished via. the following command: 
-    - `sudo bash`.
+`sudo bash`
+
 - Then, run: 
-    - `python policyGenerator.py -c <traceFile> -o <policyFile> -p <program> -f <programPath> -t <traceTime>`.
-        - `<traceFile>` represents the name of the output (`.txt`) file that all traced operations are saved to.
-        - `<policyFile>` represents the name of the output (`.yml`) file that will contain the generated security policy.
-        - `<program>` is the name of the program to trace, and `<programPath>` is the full path to the program.
-        - `<traceTime>` is the time in seconds, representing how long the program will be traced for.
+`python policyGenerator.py -c <traceFile> -o <policyFile> -p <program> -f <programPath> -t <traceTime>`
+    - `<traceFile>` represents the name of the output (`.txt`) file that all traced operations are saved to.
+    - `<policyFile>` represents the name of the output (`.yml`) file that will contain the generated security policy.
+    - `<program>` is the name of the program to trace, and `<programPath>` is the full path to the program.
+    - `<traceTime>` is the time in seconds, representing how long the program will be traced for.
 
 The tracing and translation programs can also be run seperately. 
 - First, run the tracing program using: 
-    - `sudo bpftrace traceSystemOperations.bt <arg> > <traceFile>`.
-        - `<arg>` represents the name of the program you wish to trace, and `<traceFile>` represents the name of the output (`.txt`) file to save all of the traced operations to.
+`sudo bpftrace traceSystemOperations.bt <arg> > <traceFile>`
+    - `<arg>` represents the name of the program you wish to trace, and `<traceFile>` represents the name of the output (`.txt`) file to save all of the traced operations to.
+
 - Then, the translation program can be run to generate the [BPFContain](https://github.com/willfindlay/bpfcontain-rs) security policy using:
-    - `python translateToPolicy.py -c <traceFile> -o <policyFile> -p <program> -f <programPath>`, .
-        - `<traceFile>` represents the name of the (`.txt`) trace file generated in the previous step.
-        - `<policyFile>` represents the name of the output (`.yml`) file that will contain the generated security policy.
-        - `<program>` is the name of the program to trace, and `<programPath>` is the full path to the program.
+`python translateToPolicy.py -c <traceFile> -o <policyFile> -p <program> -f <programPath>`
+    - `<traceFile>` represents the name of the (`.txt`) trace file generated in the previous step.
+    - `<policyFile>` represents the name of the output (`.yml`) file that will contain the generated security policy.
+    - `<program>` is the name of the program to trace, and `<programPath>` is the full path to the program.
