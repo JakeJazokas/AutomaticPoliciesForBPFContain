@@ -18,7 +18,7 @@ parser.add_argument('-c', '--capture-file', required=True, help='path to the bpf
 parser.add_argument('-o', '--output-file', required=True, help='path to save the generated YAML security policy', type=yaml_file)
 parser.add_argument('-p', '--program', required=True, help='name of the program to generate security policy for')
 parser.add_argument('-f', '--full-path', required=True, help='full path of the program to generate security policy for')
-parser.add_argument('-t', '--time', required=True, help='trace the given program for t seconds')
+parser.add_argument('-t', '--time', required=True, help='trace the given program for t seconds', type=int)
 args = parser.parse_args()
 
 open_outfile = open(args.capture_file, "wb")
