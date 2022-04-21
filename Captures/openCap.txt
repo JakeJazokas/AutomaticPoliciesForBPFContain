@@ -1,0 +1,7 @@
+Attaching 7 probes...
+Tracing VFS open calls... Hit Ctrl-C to end.
+VFS: Path: /etc/ld.so.cache, Program: cat, Tid: 2986, Mode: Open, Flags: 524288, Return: 3
+VFS: Path: /usr/lib64/libc.so.6, Program: cat, Tid: 2986, Mode: Open, Flags: 524288, Return: 3
+VFS: Path: /usr/lib/locale/locale-archive, Program: cat, Tid: 2986, Mode: Open, Flags: 524288, Return: 3
+VFS: Path: /home/jakejazokas/Desktop/straceTest.txt, Program: cat, Tid: 2986, Mode: Open, Flags: 1, Return: 3
+VFS: Path: /home/jakejazokas/Desktop/straceTest.txt, Program: cat, Tid: 2986, Mode: Open, Flags: 0, Return: 3

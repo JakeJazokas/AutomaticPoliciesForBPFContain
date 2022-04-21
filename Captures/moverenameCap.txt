@@ -1,0 +1,11 @@
+Attaching 7 probes...
+Tracing VFS open calls... Hit Ctrl-C to end.
+VFS: Path: /home/jakejazokas/Desktop/temp2.txt, Program: mv, Tid: 4509, Mode: Rename, Return: 0, Flags: 1
+VFS: Path: /home/jakejazokas/Desktop/temp3.txt, Program: mv, Tid: 4577, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/tempDir, Program: mv, Tid: 4622, Mode: CreateDir, Return: 0
+Socket: Program: mv, Mode: Recieve, From: bash, Return: 0
+Socket: Program: bash, Mode: Recieve, From: mv, Return: 0
+Socket: Program: mv, Mode: Send, To: bash, Return: 0
+Socket: Program: bash, Mode: Send, To: mv, Return: 0
+Device: Type: Block, Major: 252, Minor: 0, Flags: 0, Return: 0
+Device: Type: Char, Major: 1, Minor: 9, Flags: 0, Return: 0

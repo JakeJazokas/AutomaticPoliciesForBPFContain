@@ -1,0 +1,83 @@
+name: bash
+cmd: /usr/bin/bash
+
+defaultTaint: false
+
+allow:
+  - device: terminal
+  - device: null
+
+  - file: {path: /usr/share/terminfo/x/xterm-256color, access: ra}
+  - file: {path: /root/.bash_history, access: rwm}
+  - file: {path: /etc/bash_completion.d/lilv, access: ra}
+  - file: {path: /home/jakejazokas/.bashrc, access: r}
+  - file: {path: /etc/bash_completion.d/authselect-completion.sh, access: ra}
+  - file: {path: /etc/passwd, access: r}
+  - file: {path: /usr/lib64/libc.so.6, access: r}
+  - file: {path: /etc/bash_completion.d/dog, access: ra}
+  - file: {path: /etc/inputrc, access: r}
+  - file: {path: /etc/profile.d/gawk.sh, access: ra}
+  - file: {path: /etc/profile.d/PackageKit.sh, access: ra}
+  - file: {path: /root/.bashrc, access: r}
+  - file: {path: /etc/profile.d/vte.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/redefine_filedir, access: ra}
+  - file: {path: /usr/lib64/libtinfo.so.6.2, access: r}
+  - file: {path: /etc/profile.d/colorxzgrep.sh, access: ra}
+  - file: {path: /etc/profile.d/bash_completion.sh, access: ra}
+  - file: {path: /etc/profile.d/colorls.sh, access: ra}
+  - file: {path: /etc/profile.d/less.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/python-argcomplete, access: ra}
+  - file: {path: /etc/authselect/nsswitch.conf, access: r}
+  - file: {path: /usr/share/bash-completion/bash_completion, access: ra}
+  - file: {path: /etc/bashrc, access: r}
+  - file: {path: /etc/bash_completion.d/gluster, access: ra}
+  - file: {path: /etc/profile.d/colorzgrep.sh, access: ra}
+  - file: {path: /etc/profile.d/flatpak.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/abrt.bash_completion, access: ra}
+  - file: {path: /etc/profile.d/colorgrep.sh, access: ra}
+  - file: {path: /etc/profile.d/debuginfod.sh, access: ra}
+  - file: {path: /etc/profile.d/which2.sh, access: ra}
+  - file: {path: /etc/profile.d/nano-default-editor.sh, access: ra}
+  - file: {path: /etc/profile.d/lang.sh, access: ra}
+  - file: {path: /home/jakejazokas/.bash_history, access: r}
+  - file: {path: /home/jakejazokas/Desktop/temp.txt, access: w}
+  - file: {path: /usr/bin/cat, access: a}
+  - file: {path: /usr/bin/flatpak, access: a}
+  - file: {path: /etc/bash_completion.d, access: a}
+  - file: {path: /usr/bin/sed, access: a}
+  - file: {path: /etc/init.d/livesys-late, access: a}
+  - file: {path: /usr/bin/bash, access: ax}
+  - file: {path: /etc/init.d/livesys, access: a}
+  - file: {path: /etc/rc.d/init.d/livesys-late, access: a}
+  - file: {path: /etc/rc.d/init.d/livesys, access: a}
+  - file: {path: /usr/bin/lesspipe.sh, access: a}
+  - file: {path: /usr/sbin/pidof, access: a}
+  - file: {path: /usr/bin/register-python-argcomplete, access: a}
+  - file: {path: /usr/bin/pidof, access: a}
+  - file: {path: /usr/bin/grep, access: a}
+
+  - fs: {pathname: /, access: rwm}
+
+  - signal: {to: bash, signals: [sigPipe, sigChld]}
+  - signal: {to: sudo, signals: [sigChld]}
+
+  - ipc: namedPipe
+
+restrictions:
+
+  - file: {path: /etc/ld.so.preload, access: a}
+  - file: {path: /etc/terminfo/x/xterm-256color, access: a}
+  - file: {path: /root/.bash_completion, access: a}
+  - file: {path: /etc/rc.d/init.d/functions, access: a}
+  - file: {path: /etc/init.d/README, access: a}
+  - file: {path: /etc/rc.d/init.d/README, access: a}
+  - file: {path: /home/jakejazokas/.config/bash_completion, access: a}
+  - file: {path: /home/jakejazokas/.bash_completion, access: a}
+  - file: {path: /etc/init.d/functions, access: a}
+  - file: {path: /root/.config/bash_completion, access: a}
+
+  - fs: {pathname: /, access: w}
+
+  - capability: [dacOverride, dacReadSearch]
+
+
