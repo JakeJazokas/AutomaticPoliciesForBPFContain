@@ -1,5 +1,6 @@
 import re
 import numpy as np
+import argparse
 
 class TraceFile():
 
@@ -596,14 +597,24 @@ if __name__ == "__main__":
     #     fx.writelines([x for x in traceF.pipeTraces if 'Return: 8' in x or 'Return: -' in x])
     #     fx.writelines(traceF.sigTraces)
     #     fx.writelines(traceF.capTraces)
-    
-    GenerateResults(r"Captures\moverenameCap.txt", r"Output\mvRenameRemove.yml", "mv", "/usr/bin/mv")
 
-# OLD TESTING CODE BELOW
-# traceF = TraceFile(r"Captures\finalSnooperCap.txt", "bash", "/usr/bin/bash")
-# traceF = TraceFile(r"Captures\moverenameCap.txt", "mv", "/usr/bin/mv")
-# policyStr = TraceToPolicy(traceF).outputPolicyStr
-# with open(r"Output\mvRenameRemove.yml", "w") as f2:
-#     f2.write(policyStr)
-# with open(r"Output\bashFinalSnoop.yml", "w") as f2:
-    # f2.write(policyStr)
+    # Functions to ensure file types are correct
+    def text_file(value):
+        if not value.endswith('.txt'):
+            raise argparse.ArgumentTypeError('capture-file must be of type *.txt')
+        return value
+    def yaml_file(value):
+        if not value.endswith('.yml'):
+            raise argparse.ArgumentTypeError('output-file must be of type *.yml')
+        return value
+    
+    '''
+    Example usage: python translateToPolicy.py -c Captures\moverenameCap.txt -o Output\mvRenameRemove2.yml -p mv -f /usr/bin/mv
+    '''
+    parser = argparse.ArgumentParser(description='Generates a BPFContain security policy')
+    parser.add_argument('-c', '--capture-file', required=True, help='path to the bpftrace capture text file', type=text_file)
+    parser.add_argument('-o', '--output-file', required=True, help='path to save the generated YAML security policy', type=yaml_file)
+    parser.add_argument('-p', '--program', required=True, help='name of the program to generate security policy for')
+    parser.add_argument('-f', '--full-path', required=True, help='full path of the program to generate security policy for')
+    args = parser.parse_args()
+    GenerateResults(args.capture_file, args.output_file, args.program, args.full_path)
