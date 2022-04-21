@@ -584,6 +584,9 @@ class GenerateResults():
         # Dont include restrictions section if no restrictions found
         splitPolicyNoNewlines = [f"{l}\n" for l in self.policyStr.splitlines() if l]
         splitPolicyNoNewlines = splitPolicyNoNewlines[0:-1] if splitPolicyNoNewlines[-1] == 'deny:\n' else splitPolicyNoNewlines
+        # Add newline before 'deny:', if it is included
+        if 'deny:\n' in splitPolicyNoNewlines:
+            splitPolicyNoNewlines.insert(splitPolicyNoNewlines.index('deny:\n'), '\n') 
         # Add newline before 'allow:'
         splitPolicyNoNewlines.insert(splitPolicyNoNewlines.index('allow:\n'), '\n')
         self.policyStr = ''.join(splitPolicyNoNewlines)

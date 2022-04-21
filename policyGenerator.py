@@ -21,12 +21,13 @@ parser.add_argument('-f', '--full-path', required=True, help='full path of the p
 parser.add_argument('-t', '--time', required=True, help='trace the given program for t seconds')
 args = parser.parse_args()
 
-bpftrace_process = subprocess.Popen(f'sudo bpftrace --unsafe traceSystemOperations.bt {args.program}', stdout=args.capture_file)
+open_outfile = open(args.capture_file, "wb")
+
+bpftrace_process = subprocess.Popen(['sudo', 'bpftrace', '--unsafe', 'traceSystemOperations.bt', args.program], stdout=open_outfile)
 
 # Kill the tracing process after t seconds
 time.sleep(args.time)
-bpftrace_process.terminate() 
-bpftrace_process.wait()
+bpftrace_process.kill()
 
 # Translate the traced operations to a BPFContain security policy
 GenerateResults(args.capture_file, args.output_file, args.program, args.full_path)
