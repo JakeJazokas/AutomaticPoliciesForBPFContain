@@ -108,9 +108,10 @@ class TraceToPolicy():
             if null_device:
                 output_string += "  - device: null\n"
         elif(not allowBool):
-            if terminal_device_deny:
+            # Dont add to deny if already in allowed
+            if terminal_device_deny and (not "device: terminal" in self.outputPolicyStr):
                 output_string += "  - device: terminal\n"
-            if null_device_deny:
+            if null_device_deny and (not "device: null" in self.outputPolicyStr):
                 output_string += "  - device: null\n"
         return output_string + "\n"
     
@@ -577,9 +578,16 @@ class GenerateResults():
     def __init__(self, traceFilePath, outputPolicyPath, procName, procPath) -> None:
         self.traceFileObject = TraceFile(traceFilePath, procName, procPath)
         self.policyStr = TraceToPolicy(self.traceFileObject).outputPolicyStr
-        # If operation is denied, it should not be in the allowed section
-        # for denyLine in self.policyStr.split('deny:')[1].splitlines():
-        #     for allowLine in self.policyStr.split('deny:')[0].splitlines():
+        # If fs operation is denied, it should be removed from allowed ops
+        for denyLine in self.policyStr.split('deny:')[1].splitlines():
+            for allowLine in self.policyStr.split('deny:')[0].splitlines():
+                if("fs: {" in allowLine and "fs: {" in denyLine):
+                    allowOps = re.findall(r'(?:.*access: )([^}]*)', allowLine)[0]
+                    denyOps = re.findall(r'(?:.*access: )([^}]*)', denyLine)[0]
+                    if(denyOps in allowOps):
+                        replacedOperations = allowOps.replace(denyOps, '')
+                        newAllowLine = f"{re.findall(r'(.*access: )', allowLine)[0]}{replacedOperations}" + "}"
+                        self.policyStr = self.policyStr.replace(allowLine, newAllowLine)
         # Dont include restrictions section if no restrictions found
         splitPolicyNoNewlines = [f"{l}\n" for l in self.policyStr.splitlines() if l]
         splitPolicyNoNewlines = splitPolicyNoNewlines[0:-1] if splitPolicyNoNewlines[-1] == 'deny:\n' else splitPolicyNoNewlines
