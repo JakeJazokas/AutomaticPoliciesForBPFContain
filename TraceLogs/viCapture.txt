@@ -1,0 +1,235 @@
+Attaching 36 probes...
+Tracing Filesystem Function and Returns ... Hit Ctrl-C to end.
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77789, Mode: Execute, Return: 0
+VFS: Path: /etc/ld.so.preload, Program: vi, Tid: 77789, Mode: Access, Return: -2
+VFS: Path: /etc/ld.so.cache, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 80
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 68
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 784
+Device: Type: Char, Major: 5, Minor: 0, Flags: 0, Return: 0
+VFS: Path: /tty, Program: vi, Tid: 77789, Mode: Open, Flags: 8802, Return: 0
+VFS: Path: /usr/lib/locale/locale-archive, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/gconv/gconv-modules.cache, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77789, Mode: Read, Return: 80
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77789, Mode: Read, Return: 691
+VFS: Path: /usr/libexec/vi, Program: vi, Tid: 77789, Mode: Open, Flags: 8020, Return: 0
+VFS: Path: /usr/lib64/ld-linux-x86-64.so.2, Program: vi, Tid: 77789, Mode: Open, Flags: 8020, Return: 0
+VFS: Path: /usr/libexec/vi, Program: vi, Tid: 77789, Mode: Execute, Return: 0
+VFS: Path: /etc/ld.so.preload, Program: vi, Tid: 77789, Mode: Access, Return: -2
+VFS: Path: /etc/ld.so.cache, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77789, Mode: Read, Return: 36
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libacl.so.1.1.2301, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libacl.so.1.1.2301, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 80
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 68
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77789, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libpcre2-8.so.0.10.2, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpcre2-8.so.0.10.2, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libattr.so.1.1.2501, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libattr.so.1.1.2501, Program: vi, Tid: 77789, Mode: Read, Return: 832
+VFS: Path: /etc/selinux/config, Program: vi, Tid: 77789, Mode: Access, Return: 0
+VFS: Path: /usr/lib/locale/locale-archive, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/terminfo/x/xterm-256color, Program: vi, Tid: 77789, Mode: Access, Return: -2
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77789, Mode: Access, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77789, Mode: Read, Return: 3814
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77789, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/virc, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/virc, Program: vi, Tid: 77789, Mode: Read, Return: 1204
+VFS: Path: /etc/virc, Program: vi, Tid: 77789, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77789, Mode: Read, Return: 4091
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77789, Mode: Read, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 47
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77789, Mode: Read, Return: 3038
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77789, Mode: Read, Return: 0
+VFS: Path: /etc/passwd, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/passwd, Program: vi, Tid: 77789, Mode: Read, Return: 2648
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Open, Flags: 8002, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swx, Program: vi, Tid: 77789, Mode: Open, Flags: 8002, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swx, Program: vi, Tid: 77789, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Open, Flags: 28002, Return: 0
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+VFS: Path: /var/run/setrans/.setrans-unix, Program: vi, Tid: 77789, Mode: Access, Return: -2
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Write, Return: 4096
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Modify, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 65
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Read, Return: 3
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Read, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 7
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 13
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 29
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 23
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 4
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 7
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 1927
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 52
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 100
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 15
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 1971
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 12
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 19
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 55
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Write, Return: 4096
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 17
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 16
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 6
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 6
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 20
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 1
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Access, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 20
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 8
+VFS: Path: /home/jakejazokas/Desktop/4913, Program: vi, Tid: 77789, Mode: Open, Flags: 28001, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/4913, Program: vi, Tid: 77789, Mode: Modify, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/4913, Program: vi, Tid: 77789, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/s2.txt~, Program: vi, Tid: 77789, Mode: Rename, Flags: 0, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Open, Flags: 8001, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Write, Return: 4
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+VFS: Path: /home/jakejazokas/Desktop/s2.txt, Program: vi, Tid: 77789, Mode: Modify, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 15
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Write, Return: 4096
+VFS: Path: /home/jakejazokas/Desktop/s2.txt~, Program: vi, Tid: 77789, Mode: Remove, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 26
+VFS: Path: /1, Program: vi, Tid: 77789, Mode: Write, Return: 29
+VFS: Path: /home/jakejazokas/Desktop/.s2.txt.swp, Program: vi, Tid: 77789, Mode: Remove, Return: 0
+Signal: From: vi, To: bash, SigNum: 17, Return: 0
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77795, Mode: Execute, Return: 0
+VFS: Path: /etc/ld.so.preload, Program: vi, Tid: 77795, Mode: Access, Return: -2
+VFS: Path: /etc/ld.so.cache, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 80
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 68
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 784
+Device: Type: Char, Major: 5, Minor: 0, Flags: 0, Return: 0
+VFS: Path: /tty, Program: vi, Tid: 77795, Mode: Open, Flags: 8802, Return: 0
+VFS: Path: /usr/lib/locale/locale-archive, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/gconv/gconv-modules.cache, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77795, Mode: Read, Return: 80
+VFS: Path: /usr/bin/vi, Program: vi, Tid: 77795, Mode: Read, Return: 691
+VFS: Path: /usr/libexec/vi, Program: vi, Tid: 77795, Mode: Open, Flags: 8020, Return: 0
+VFS: Path: /usr/lib64/ld-linux-x86-64.so.2, Program: vi, Tid: 77795, Mode: Open, Flags: 8020, Return: 0
+VFS: Path: /usr/libexec/vi, Program: vi, Tid: 77795, Mode: Execute, Return: 0
+VFS: Path: /etc/ld.so.preload, Program: vi, Tid: 77795, Mode: Access, Return: -2
+VFS: Path: /etc/ld.so.cache, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libselinux.so.1, Program: vi, Tid: 77795, Mode: Read, Return: 36
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libacl.so.1.1.2301, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libacl.so.1.1.2301, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 80
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 68
+VFS: Path: /usr/lib64/libc.so.6, Program: vi, Tid: 77795, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libpcre2-8.so.0.10.2, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpcre2-8.so.0.10.2, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libattr.so.1.1.2501, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libattr.so.1.1.2501, Program: vi, Tid: 77795, Mode: Read, Return: 832
+VFS: Path: /etc/selinux/config, Program: vi, Tid: 77795, Mode: Access, Return: 0
+VFS: Path: /usr/lib/locale/locale-archive, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/terminfo/x/xterm-256color, Program: vi, Tid: 77795, Mode: Access, Return: -2
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77795, Mode: Access, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77795, Mode: Read, Return: 3814
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: vi, Tid: 77795, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/virc, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/virc, Program: vi, Tid: 77795, Mode: Read, Return: 1204
+VFS: Path: /etc/virc, Program: vi, Tid: 77795, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77795, Mode: Read, Return: 4091
+VFS: Path: /usr/share/vim/vim82/defaults.vim, Program: vi, Tid: 77795, Mode: Read, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 47
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77795, Mode: Read, Return: 3038
+VFS: Path: /etc/authselect/nsswitch.conf, Program: vi, Tid: 77795, Mode: Read, Return: 0
+VFS: Path: /etc/passwd, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/passwd, Program: vi, Tid: 77795, Mode: Read, Return: 2648
+VFS: Path: /home/jakejazokas/Desktop/s.txt, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Open, Flags: 8002, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swx, Program: vi, Tid: 77795, Mode: Open, Flags: 8002, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swx, Program: vi, Tid: 77795, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Remove, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Open, Flags: 28002, Return: 0
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+VFS: Path: /var/run/setrans/.setrans-unix, Program: vi, Tid: 77795, Mode: Access, Return: -2
+Capability: Program: vi, CapInt: 33, CapName: CAP_MAC_ADMIN, Options: 2, Return: -1
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Write, Return: 4096
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Modify, Return: 0
+VFS: Path: /home/jakejazokas/Desktop/s.txt, Program: vi, Tid: 77795, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 64
+VFS: Path: /home/jakejazokas/Desktop/s.txt, Program: vi, Tid: 77795, Mode: Read, Return: 6
+VFS: Path: /home/jakejazokas/Desktop/s.txt, Program: vi, Tid: 77795, Mode: Read, Return: 0
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 7
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 13
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 29
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 23
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 4
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 7
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 1930
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 52
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 100
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 15
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 1973
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 12
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 19
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 30
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Read, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 1
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 20
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 40
+VFS: Path: /1, Program: vi, Tid: 77795, Mode: Write, Return: 29
+VFS: Path: /home/jakejazokas/Desktop/.s.txt.swp, Program: vi, Tid: 77795, Mode: Remove, Return: 0
+Signal: From: vi, To: bash, SigNum: 17, Return: 0

@@ -1,0 +1,101 @@
+name: bash
+cmd: /usr/bin/bash
+defaultTaint: false
+
+allow:
+  - device: terminal
+  - device: null
+  - numberedDevice: {major: 5, access: r}
+  - numberedDevice: {major: 1, access: r}
+  - file: {path: /usr/share/bash-completion/bash_completion, access: ra}
+  - file: {path: /usr/bin/sed, access: rax}
+  - file: {path: /home/jakejazokas/.cargo/env, access: r}
+  - file: {path: /etc/profile.d/which2.sh, access: ra}
+  - file: {path: /usr/lib64/ld-linux-x86-64.so.2, access: rx}
+  - file: {path: /etc/bash_completion.d/abrt.bash_completion, access: ra}
+  - file: {path: /etc/profile.d/less.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/redefine_filedir, access: ra}
+  - file: {path: /etc/profile.d/colorls.sh, access: ra}
+  - file: {path: /usr/libexec/vte-urlencode-cwd, access: rx}
+  - file: {path: /usr/bin/chown, access: rx}
+  - file: {path: /etc/authselect/nsswitch.conf, access: r}
+  - file: {path: /usr/bin/dircolors, access: rx}
+  - file: {path: /etc/bashrc, access: r}
+  - file: {path: /etc/profile.d/lang.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/python-argcomplete, access: ra}
+  - file: {path: /etc/profile.d/colorzgrep.sh, access: ra}
+  - file: {path: /usr/lib64/libc.so.6, access: r}
+  - file: {path: /etc/passwd, access: r}
+  - file: {path: /etc/profile.d/nano-default-editor.sh, access: ra}
+  - file: {path: /usr/bin/cat, access: rax}
+  - file: {path: /usr/bin/grep, access: rax}
+  - file: {path: /etc/bash_completion.d/lilv, access: ra}
+  - file: {path: /etc/inputrc, access: r}
+  - file: {path: /etc/profile.d/colorxzgrep.sh, access: ra}
+  - file: {path: /home/jakejazokas/.bash_history, access: rwxm}
+  - file: {path: /etc/profile.d/PackageKit.sh, access: ra}
+  - file: {path: /etc/profile.d/gawk.sh, access: ra}
+  - file: {path: /etc/profile.d/colorgrep.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/dog, access: ra}
+  - file: {path: /usr/bin/chmod, access: rx}
+  - file: {path: /home/jakejazokas/Desktop, access: r}
+  - file: {path: /etc/profile.d/vte.sh, access: ra}
+  - file: {path: /etc/bash_completion.d/gluster, access: ra}
+  - file: {path: /usr/bin/register-python-argcomplete, access: rax}
+  - file: {path: /usr/lib64/libtinfo.so.6.2, access: r}
+  - file: {path: /usr/bin/locale, access: rx}
+  - file: {path: /etc/profile.d/debuginfod.sh, access: ra}
+  - file: {path: /usr/bin/mkdir, access: rx}
+  - file: {path: /usr/bin/bash, access: rax}
+  - file: {path: /usr/bin/flatpak, access: rax}
+  - file: {path: /usr/libexec/grepconf.sh, access: rx}
+  - file: {path: /usr/share/bash-completion/completions/chown, access: r}
+  - file: {path: /etc/bash_completion.d/authselect-completion.sh, access: ra}
+  - file: {path: /usr/bin/python3.10, access: rx}
+  - file: {path: /etc/rc.d/init.d, access: r}
+  - file: {path: /etc/bash_completion.d, access: ra}
+  - file: {path: /usr/share/terminfo/x/xterm-256color, access: ra}
+  - file: {path: /usr/lib64/gconv/gconv-modules.cache, access: r}
+  - file: {path: /usr/bin/pidof, access: rax}
+  - file: {path: /usr/bin/id, access: rx}
+  - file: {path: /etc/bash_completion.d/bpftool, access: ra}
+  - file: {path: /etc/ld.so.cache, access: r}
+  - file: {path: /etc/profile.d/bash_completion.sh, access: ra}
+  - file: {path: /etc/profile.d, access: r}
+  - file: {path: /etc/profile.d/flatpak.sh, access: ra}
+  - file: {path: /usr/lib/locale/locale-archive, access: r}
+  - file: {path: /root/.bash_history, access: rwm}
+  - file: {path: /usr/bin/rm, access: rx}
+  - file: {path: /home/jakejazokas/.bashrc, access: r}
+  - file: {path: /root/.bashrc, access: r}
+  - file: {path: /usr/bin/rmdir, access: rx}
+  - file: {path: /usr/bin/touch, access: rx}
+  - file: {path: /usr/bin/sudo, access: rx}
+  - file: {path: /usr/bin/mv, access: rx}
+  - file: {path: /home/jakejazokas/Desktop/namedPipe, access: wm}
+  - file: {path: /home/jakejazokas/.bash_history-74219.tmp, access: w}
+  - file: {path: /home/jakejazokas/Desktop/temp.txt, access: w}
+  - file: {path: /usr/bin/lesspipe.sh, access: a}
+  - file: {path: /etc/rc.d/init.d/livesys-late, access: a}
+  - file: {path: /etc/rc.d/init.d/livesys, access: a}
+  - file: {path: /etc/init.d/livesys, access: a}
+  - file: {path: /etc/init.d/livesys-late, access: a}
+  - file: {path: /usr/sbin/pidof, access: a}
+  - fs: {pathname: /, access: rm}
+  - signal: {to: bash, signals: [sigPipe, sigChld]}
+  - signal: {to: sudo, signals: [sigChld]}
+  - ipc: namedPipe
+
+deny:
+  - file: {path: /etc/init.d/functions, access: a}
+  - file: {path: /root/.bash_completion, access: a}
+  - file: {path: /etc/rc.d/init.d/README, access: a}
+  - file: {path: /etc/terminfo/x/xterm-256color, access: a}
+  - file: {path: /root/.config/bash_completion, access: a}
+  - file: {path: /home/jakejazokas/.bash_completion, access: a}
+  - file: {path: /home/jakejazokas/.config/bash_completion, access: a}
+  - file: {path: /etc/init.d/README, access: a}
+  - file: {path: /etc/ld.so.preload, access: a}
+  - file: {path: /etc/rc.d/init.d/functions, access: a}
+  - fs: {pathname: /, access: w}
+  - capability: [dacReadSearch, dacOverride]

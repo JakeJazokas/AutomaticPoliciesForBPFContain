@@ -1,0 +1,840 @@
+Attaching 36 probes...
+Tracing Filesystem Function and Returns ... Hit Ctrl-C to end.
+VFS: Path: /usr/bin/python, Program: python, Tid: 77905, Mode: Execute, Return: 0
+VFS: Path: /etc/ld.so.preload, Program: python, Tid: 77905, Mode: Access, Return: -2
+VFS: Path: /etc/ld.so.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpython3.10.so.1.0, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpython3.10.so.1.0, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Read, Return: 80
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Read, Return: 68
+VFS: Path: /usr/lib64/libc.so.6, Program: python, Tid: 77905, Mode: Read, Return: 784
+VFS: Path: /usr/lib64/libm.so.6, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libm.so.6, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib/locale/locale-archive, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/gconv/gconv-modules.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/bin/python, Program: python, Tid: 77905, Mode: Read, Return: 9
+VFS: Path: /usr/bin/python3, Program: python, Tid: 77905, Mode: Read, Return: 10
+VFS: Path: /usr/share/zoneinfo/America/Toronto, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/zoneinfo/America/Toronto, Program: python, Tid: 77905, Mode: Read, Return: 3494
+VFS: Path: /usr/share/zoneinfo/America/Toronto, Program: python, Tid: 77905, Mode: Read, Return: 2225
+VFS: Path: /usr/lib64/python3.10, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3909
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/codecs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/codecs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 33181
+VFS: Path: /usr/lib64/python3.10/__pycache__/codecs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 10923
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1599
+VFS: Path: /usr/lib64/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/io.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/io.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3665
+VFS: Path: /usr/lib64/python3.10/__pycache__/io.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6753
+VFS: Path: /usr/lib64/python3.10/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/site.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/site.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 17601
+VFS: Path: /usr/lib64/python3.10/__pycache__/site.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/os.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/os.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 31558
+VFS: Path: /usr/lib64/python3.10/__pycache__/os.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/stat.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/stat.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4275
+VFS: Path: /usr/lib64/python3.10/__pycache__/stat.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_collections_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_collections_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 32839
+VFS: Path: /usr/lib64/python3.10/__pycache__/_collections_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/posixpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/posixpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 10517
+VFS: Path: /usr/lib64/python3.10/__pycache__/posixpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/genericpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/genericpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3909
+VFS: Path: /usr/lib64/python3.10/__pycache__/genericpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3549
+VFS: Path: /usr/lib64/python3.10/__pycache__/_sitebuiltins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/local/lib64/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/Paste-3.5.0-py3.10-nspkg.pth, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/Paste-3.5.0-py3.10-nspkg.pth, Program: python, Tid: 77905, Mode: Read, Return: 534
+VFS: Path: /usr/lib64/python3.10/__pycache__/types.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/types.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 9535
+VFS: Path: /usr/lib64/python3.10/__pycache__/types.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3807
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/warnings.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/warnings.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 13660
+VFS: Path: /usr/lib64/python3.10/__pycache__/warnings.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/util.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/util.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 9331
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/util.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1973
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/_abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/contextlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/contextlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 20901
+VFS: Path: /usr/lib64/python3.10/__pycache__/contextlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 48457
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/keyword.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/keyword.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 929
+VFS: Path: /usr/lib64/python3.10/__pycache__/keyword.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/operator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/operator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 13510
+VFS: Path: /usr/lib64/python3.10/__pycache__/operator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/reprlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/reprlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5252
+VFS: Path: /usr/lib64/python3.10/__pycache__/reprlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/functools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/functools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 28351
+VFS: Path: /usr/lib64/python3.10/__pycache__/functools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/machinery.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/machinery.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 946
+VFS: Path: /usr/lib64/python3.10/importlib/__pycache__/machinery.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/Paste-3.5.0-py3.10-nspkg.pth, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/abrt3.pth, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/abrt3.pth, Program: python, Tid: 77905, Mode: Read, Return: 31
+VFS: Path: /usr/lib64/python3.10/lib-dynload, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/local/lib64/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/site-packages, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/__pycache__/abrt_exception_handler3.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/__pycache__/abrt_exception_handler3.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4242
+VFS: Path: /usr/lib/python3.10/site-packages/__pycache__/abrt_exception_handler3.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/abrt3.pth, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/distutils-precedence.pth, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib/python3.10/site-packages/distutils-precedence.pth, Program: python, Tid: 77905, Mode: Read, Return: 152
+VFS: Path: /usr/lib/python3.10/site-packages/distutils-precedence.pth, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 94
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 71
+VFS: Path: /home/jakejazokas/Desktop, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/readline.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/readline.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /etc/ld.so.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libreadline.so.8.1, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libreadline.so.8.1, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libtinfo.so.6.2, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /etc/terminfo/x/xterm-256color, Program: python, Tid: 77905, Mode: Access, Return: -2
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: python, Tid: 77905, Mode: Access, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: python, Tid: 77905, Mode: Read, Return: 3814
+VFS: Path: /usr/share/terminfo/x/xterm-256color, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /etc/inputrc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/inputrc, Program: python, Tid: 77905, Mode: Read, Return: 943
+VFS: Path: /usr/lib64/python3.10/__pycache__/rlcompleter.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/rlcompleter.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5958
+VFS: Path: /usr/lib64/python3.10/__pycache__/rlcompleter.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 84727
+VFS: Path: /usr/lib64/python3.10/__pycache__/inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/ast.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/ast.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 55618
+VFS: Path: /usr/lib64/python3.10/__pycache__/ast.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/enum.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/enum.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 26083
+VFS: Path: /usr/lib64/python3.10/__pycache__/enum.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/dis.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/dis.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 15658
+VFS: Path: /usr/lib64/python3.10/__pycache__/dis.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/opcode.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/opcode.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5449
+VFS: Path: /usr/lib64/python3.10/__pycache__/opcode.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/collections, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 240
+VFS: Path: /usr/lib64/python3.10/collections/__pycache__/abc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/linecache.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/linecache.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4105
+VFS: Path: /usr/lib64/python3.10/__pycache__/linecache.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/tokenize.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/tokenize.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 17210
+VFS: Path: /usr/lib64/python3.10/__pycache__/tokenize.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/re.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/re.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 14229
+VFS: Path: /usr/lib64/python3.10/__pycache__/re.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_compile.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_compile.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 15095
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_compile.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 21578
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_constants.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_constants.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6340
+VFS: Path: /usr/lib64/python3.10/__pycache__/sre_constants.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/copyreg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/copyreg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4689
+VFS: Path: /usr/lib64/python3.10/__pycache__/copyreg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/token.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/token.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 2740
+VFS: Path: /usr/lib64/python3.10/__pycache__/token.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /etc/inputrc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /etc/inputrc, Program: python, Tid: 77905, Mode: Read, Return: 943
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 10895
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_globals.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_globals.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4460
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_globals.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__config__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__config__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4500
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/__config__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_distributor_init.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_distributor_init.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 512
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_distributor_init.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4020
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 590
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/__future__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/__future__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4133
+VFS: Path: /usr/lib64/python3.10/__pycache__/__future__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 489
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 12321
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/json, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/decoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/decoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 9767
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/decoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/scanner.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/scanner.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1918
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/scanner.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/encoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/encoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 11120
+VFS: Path: /usr/lib64/python3.10/json/__pycache__/encoder.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/multiarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/multiarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 53815
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/multiarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/overrides.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/overrides.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6723
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/overrides.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/_multiarray_umath.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 36
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-2f7c42d4.3.18.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-2f7c42d4.3.18.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-2f7c42d4.3.18.so, Program: python, Tid: 77905, Mode: Read, Return: 36
+VFS: Path: /etc/ld.so.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpthread.so.0, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libpthread.so.0, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libgfortran-040039e1.so.5.0.0, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libgfortran-040039e1.so.5.0.0, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libgfortran-040039e1.so.5.0.0, Program: python, Tid: 77905, Mode: Read, Return: 36
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libquadmath-96973f99.so.0.0.0, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libquadmath-96973f99.so.0.0.0, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy.libs/libquadmath-96973f99.so.0.0.0, Program: python, Tid: 77905, Mode: Read, Return: 36
+VFS: Path: /usr/lib64/libz.so.1.2.11, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libz.so.1.2.11, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/libgcc_s-11-20210728.so.1, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libgcc_s-11-20210728.so.1, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /devices/system/cpu, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/datetime.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/datetime.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 56537
+VFS: Path: /usr/lib64/python3.10/__pycache__/datetime.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/math.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/math.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_datetime.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_datetime.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 610
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/_inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/_inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7619
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/_inspect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/py3k.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/py3k.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4661
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/compat/__pycache__/py3k.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/pathlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/pathlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 42029
+VFS: Path: /usr/lib64/python3.10/__pycache__/pathlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/fnmatch.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/fnmatch.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4028
+VFS: Path: /usr/lib64/python3.10/__pycache__/fnmatch.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/ntpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/ntpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 14740
+VFS: Path: /usr/lib64/python3.10/__pycache__/ntpath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 133
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/urllib, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 33806
+VFS: Path: /usr/lib64/python3.10/urllib/__pycache__/parse.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 46874
+VFS: Path: /usr/lib64/python3.10/__pycache__/pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/struct.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/struct.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 309
+VFS: Path: /usr/lib64/python3.10/__pycache__/struct.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_struct.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_struct.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/__pycache__/_compat_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_compat_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5874
+VFS: Path: /usr/lib64/python3.10/__pycache__/_compat_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_pickle.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_pickle.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/umath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/umath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1721
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/umath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numerictypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numerictypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 16268
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numerictypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/numbers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/numbers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 11855
+VFS: Path: /usr/lib64/python3.10/__pycache__/numbers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_string_helpers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_string_helpers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3125
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_string_helpers.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_type_aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_type_aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5249
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_type_aliases.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7904
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 73178
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/numeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 25719
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/fromnumeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/fromnumeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 121880
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/fromnumeric.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_methods.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_methods.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7065
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_methods.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_exceptions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_exceptions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 8780
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_exceptions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_ufunc_config.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_ufunc_config.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 13671
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_ufunc_config.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/arrayprint.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/arrayprint.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 51957
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/arrayprint.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_asarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_asarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3943
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_asarray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/defchararray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/defchararray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 67552
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/defchararray.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/records.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/records.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 30096
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/records.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/memmap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/memmap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 10418
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/memmap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 16900
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_machar.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_machar.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 8299
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_machar.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/getlimits.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/getlimits.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 18205
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/getlimits.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/einsumfunc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/einsumfunc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 39442
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/einsumfunc.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 181111
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/_multiarray_tests.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/_multiarray_tests.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs_scalars.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs_scalars.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 9141
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_add_newdocs_scalars.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/platform.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/platform.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 27379
+VFS: Path: /usr/lib64/python3.10/__pycache__/platform.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/subprocess.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/subprocess.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 44442
+VFS: Path: /usr/lib64/python3.10/__pycache__/subprocess.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/signal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/signal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 2937
+VFS: Path: /usr/lib64/python3.10/__pycache__/signal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/threading.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/threading.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 44916
+VFS: Path: /usr/lib64/python3.10/__pycache__/threading.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_weakrefset.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/_weakrefset.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7610
+VFS: Path: /usr/lib64/python3.10/__pycache__/_weakrefset.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/fcntl.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/fcntl.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_posixsubprocess.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_posixsubprocess.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/lib-dynload/select.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/select.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/__pycache__/selectors.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/selectors.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 17107
+VFS: Path: /usr/lib64/python3.10/__pycache__/selectors.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype_ctypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype_ctypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 3052
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_dtype_ctypes.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_internal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_internal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 22033
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/core/__pycache__/_internal.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 15884
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /etc/ld.so.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libffi.so.6.0.2, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libffi.so.6.0.2, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/ctypes, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/_endian.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/_endian.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1903
+VFS: Path: /usr/lib64/python3.10/ctypes/__pycache__/_endian.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_pytesttester.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_pytesttester.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 5837
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/_pytesttester.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1558
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/mixins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/mixins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7017
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/mixins.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/scimath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/scimath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 15406
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/scimath.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/type_check.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/type_check.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 20470
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/type_check.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/ufunclike.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/ufunclike.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7790
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/ufunclike.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/index_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/index_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 28652
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/index_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 389
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/defmatrix.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/defmatrix.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 29638
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/matrixlib/__pycache__/defmatrix.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1971
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/linalg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/linalg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 81857
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/__pycache__/linalg.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/twodim_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/twodim_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 31786
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/twodim_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/stride_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/stride_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 16865
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/stride_tricks.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/_umath_linalg.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/_umath_linalg.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/linalg/_umath_linalg.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 36
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 159586
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/function_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/histograms.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/histograms.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 32123
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/histograms.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/nanfunctions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/nanfunctions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 58939
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/nanfunctions.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 35582
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/shape_base.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 41552
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/utils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/utils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 25875
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/utils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/textwrap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/textwrap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 13822
+VFS: Path: /usr/lib64/python3.10/__pycache__/textwrap.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraysetops.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraysetops.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 23067
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraysetops.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/npyio.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/npyio.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 66541
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/npyio.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/weakref.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/weakref.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 20345
+VFS: Path: /usr/lib64/python3.10/__pycache__/weakref.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/format.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/format.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 25268
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/format.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_datasource.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_datasource.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 20451
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_datasource.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_iotools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_iotools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 25915
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_iotools.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arrayterator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arrayterator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7023
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arrayterator.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraypad.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraypad.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 22062
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/arraypad.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 4829
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/lib/__pycache__/_version.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 8282
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/_pocketfft.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/_pocketfft.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 51818
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/_pocketfft.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/_pocketfft_internal.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/_pocketfft_internal.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/helper.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/helper.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6685
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/fft/__pycache__/helper.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6873
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 48371
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polynomial.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polyutils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polyutils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 21840
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/polyutils.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/_polybase.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/_polybase.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 34306
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/_polybase.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/chebyshev.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/chebyshev.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 61971
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/chebyshev.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/legendre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/legendre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 50661
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/legendre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 51823
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite_e.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite_e.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 51803
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/hermite_e.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/laguerre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/laguerre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 50123
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/polynomial/__pycache__/laguerre.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 7425
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1909
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/__pycache__/_pickle.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/mtrand.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/mtrand.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/bit_generator.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/bit_generator.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_common.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_common.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/__pycache__/secrets.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/secrets.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 2177
+VFS: Path: /usr/lib64/python3.10/__pycache__/secrets.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/base64.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/base64.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 17164
+VFS: Path: /usr/lib64/python3.10/__pycache__/base64.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/binascii.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/binascii.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/__pycache__/hmac.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/hmac.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6975
+VFS: Path: /usr/lib64/python3.10/__pycache__/hmac.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /etc/ld.so.cache, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libcrypto.so.1.1.1l, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/libcrypto.so.1.1.1l, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /sys/crypto/fips_enabled, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /sys/crypto/fips_enabled, Program: python, Tid: 77905, Mode: Read, Return: 2
+VFS: Path: /etc/system-fips, Program: python, Tid: 77905, Mode: Access, Return: -2
+VFS: Path: /usr/lib64/python3.10/__pycache__/hashlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/hashlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 6847
+VFS: Path: /usr/lib64/python3.10/__pycache__/hashlib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_blake2.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_blake2.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/__pycache__/random.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/random.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 22750
+VFS: Path: /usr/lib64/python3.10/__pycache__/random.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/bisect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/__pycache__/bisect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 2590
+VFS: Path: /usr/lib64/python3.10/__pycache__/bisect.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_bisect.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_bisect.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_random.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_random.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_sha512.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /usr/lib64/python3.10/lib-dynload/_sha512.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_bounded_integers.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_bounded_integers.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_mt19937.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_mt19937.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_philox.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_philox.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_pcg64.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_pcg64.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_sfc64.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_sfc64.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_generator.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/random/_generator.cpython-310-x86_64-linux-gnu.so, Program: python, Tid: 77905, Mode: Read, Return: 832
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/ctypeslib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/ctypeslib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 14658
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/__pycache__/ctypeslib.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 1555
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/__init__.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma, Program: python, Tid: 77905, Mode: Open, Flags: 18800, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/core.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/core.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 215397
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/core.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/extras.cpython-310.pyc, Program: python, Tid: 77905, Mode: Open, Flags: 8000, Return: 0
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/extras.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 51275
+VFS: Path: /home/jakejazokas/.local/lib/python3.10/site-packages/numpy/ma/__pycache__/extras.cpython-310.pyc, Program: python, Tid: 77905, Mode: Read, Return: 0
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 2
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 4
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Read, Return: 1
+VFS: Path: /1, Program: python, Tid: 77905, Mode: Write, Return: 1

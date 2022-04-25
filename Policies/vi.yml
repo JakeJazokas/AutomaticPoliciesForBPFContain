@@ -1,0 +1,41 @@
+name: vi
+cmd: /usr/bin/vi
+defaultTaint: false
+
+allow:
+  - device: terminal
+  - numberedDevice: {major: 5, access: r}
+  - file: {path: /home/jakejazokas/Desktop, access: r}
+  - file: {path: /etc/passwd, access: r}
+  - file: {path: /usr/share/terminfo/x/xterm-256color, access: ra}
+  - file: {path: /usr/lib64/libc.so.6, access: r}
+  - file: {path: /usr/lib64/ld-linux-x86-64.so.2, access: rx}
+  - file: {path: /usr/bin/vi, access: rx}
+  - file: {path: /home/jakejazokas/Desktop/.s2.txt.swp, access: rwaxm}
+  - file: {path: /etc/ld.so.cache, access: r}
+  - file: {path: /home/jakejazokas/Desktop/.s.txt.swx, access: rwax}
+  - file: {path: /usr/lib64/libacl.so.1.1.2301, access: r}
+  - file: {path: /usr/lib64/libselinux.so.1, access: r}
+  - file: {path: /usr/lib64/libtinfo.so.6.2, access: r}
+  - file: {path: /usr/lib64/libattr.so.1.1.2501, access: r}
+  - file: {path: /etc/authselect/nsswitch.conf, access: r}
+  - file: {path: /usr/share/vim/vim82/defaults.vim, access: r}
+  - file: {path: /usr/lib/locale/locale-archive, access: r}
+  - file: {path: /usr/lib64/gconv/gconv-modules.cache, access: r}
+  - file: {path: /home/jakejazokas/Desktop/s2.txt, access: rwam}
+  - file: {path: /usr/lib64/libpcre2-8.so.0.10.2, access: r}
+  - file: {path: /home/jakejazokas/Desktop/s.txt, access: r}
+  - file: {path: /home/jakejazokas/Desktop/.s.txt.swp, access: rwaxm}
+  - file: {path: /etc/virc, access: r}
+  - file: {path: /usr/libexec/vi, access: rx}
+  - file: {path: /home/jakejazokas/Desktop/.s2.txt.swx, access: rwax}
+  - file: {path: /home/jakejazokas/Desktop/s2.txt~, access: wax}
+  - file: {path: /home/jakejazokas/Desktop/4913, access: waxm}
+  - file: {path: /etc/selinux/config, access: a}
+  - signal: {to: bash, signals: [sigChld]}
+
+deny:
+  - file: {path: /etc/terminfo/x/xterm-256color, access: a}
+  - file: {path: /etc/ld.so.preload, access: a}
+  - file: {path: /var/run/setrans/.setrans-unix, access: a}
+  - capability: [macAdmin]

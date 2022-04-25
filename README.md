@@ -43,3 +43,9 @@ The tracing and translation programs can also be run seperately.
     - `<traceFile>` represents the name of the (`.txt`) trace file generated in the previous step.
     - `<policyFile>` represents the name of the output (`.yml`) file that will contain the generated security policy.
     - `<program>` is the name of the program to trace, and `<programPath>` is the full path to the program.
+
+## Examples
+
+- Tracing examples can be found in the [TraceLogs](https://github.com/JakeJazokas/AutomaticPoliciesForBPFContain/tree/main/TraceLogs) directory, all of which were generated with the `traceSystemOperations.bt` script.
+
+- Generated policy examples can be found in the [Policies](https://github.com/JakeJazokas/AutomaticPoliciesForBPFContain/tree/main/Policies) directory.
