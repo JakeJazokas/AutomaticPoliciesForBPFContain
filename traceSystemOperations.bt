@@ -880,6 +880,12 @@ tracepoint:signal:signal_generate
     printf("Signal: From: %s, To: %s, SigNum: %d, Return: %d\n", comm, args->comm, args->sig, args->result);
 }
 
+tracepoint:signal:signal_deliver 
+/comm == str($1)/
+{ 
+	printf("Signal: To: %s, SigNum: %d, Return: %d\n", comm, args->sig, args->errno); 
+}
+
 // Capability Functions
 
 kretfunc:cap_capable
