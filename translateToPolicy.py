@@ -214,8 +214,8 @@ class TraceToPolicy():
         # Regex Strings - Group 0 is the path, Group 1 is the flags in decimal, Group 2 is the return
         open_regex = r"(?:Path: )([^,]*)(?:, Program: "+traceFile.procName+r", Tid: [\d]*, Mode: Open, Flags: )([-0-9]+)(?:, Return: )([-0-9]+)"
         # Regex Strings - Group 0 is the path, Group 1 is the return
+        rename_regex = r"(?:Path: )([^,]*)(?:, Program: "+traceFile.procName+r", Tid: [\d]*, Mode: Rename, Flags: [-0-9]+)(?:, Return: )([-0-9]+)"
         createdir_regex = r"(?:Path: )([^,]*)(?:, Program: "+traceFile.procName+r", Tid: [\d]*, Mode: CreateDir, Return: )([-0-9]+)"
-        rename_regex = r"(?:Path: )([^,]*)(?:, Program: "+traceFile.procName+r", Tid: [\d]*, Mode: Rename, Return: )([-0-9]+)"
         remove_regex = r"(?:Path: )([^,]*)(?:, Program: "+traceFile.procName+r", Tid: [\d]*, Mode: Remove, Return: )([-0-9]+)"
         # Get all the paths read and written to by the program
         read_paths = []

@@ -616,7 +616,7 @@ tracepoint:syscalls:sys_exit_exec*
 	delete(@executeFilename[tid]);
 }
 
-// Write + Execute Functions
+// Write + Execute + Access Functions
 
 kretfunc:vfs_rmdir
 /comm == str($1)/
@@ -712,6 +712,8 @@ kretfunc:vfs_unlink
 	clear(@fullPath);
 }
 
+// Write + Execute Functions
+
 kretfunc:vfs_rename
 /comm == str($1)/
 {
@@ -753,7 +755,7 @@ kretfunc:vfs_rename
 		}
 		$maxCount--;
 	}
-	printf("%s, Program: %s, Tid: %d, Mode: Rename, Return: %d, Flags: %d\n", $fileName, comm, tid, retval, args->rd->flags);
+	printf("%s, Program: %s, Tid: %d, Mode: Rename, Flags: %d, Return: %d\n", $fileName, comm, tid, args->rd->flags, retval);
 	
 	clear(@fullPath);
 }
