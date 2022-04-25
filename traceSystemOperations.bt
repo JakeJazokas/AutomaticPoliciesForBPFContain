@@ -809,28 +809,15 @@ kretfunc:vfs_mkdir
 
 // Open functions
 
-kfunc:vfs_open
+kretfunc:vfs_open
 /comm == str($1)/
 {
-	@openFilename[tid] = str(args->path->dentry->d_name.name);
-	@openFileobject[tid] = args->file;
-}
-
-tracepoint:syscalls:sys_enter_open,
-tracepoint:syscalls:sys_enter_openat
-/comm == str($1)/
-{
-	@openFilenamePtr[tid] = args->filename;
-	@openFlags[tid] = args->flags; // Decimal value
-}
-
-tracepoint:syscalls:sys_exit_open,
-tracepoint:syscalls:sys_exit_openat
-/@openFilenamePtr[tid]/
-{	
-	$filePtr = @openFileobject[tid];
-	$parentDir = $filePtr->f_path.dentry->d_parent;
+	$fileName = str(args->file->f_path.dentry->d_name.name);
+	
+	$parentDir = args->file->f_path.dentry->d_parent;
+	
 	@fullPath[0] = str($parentDir->d_name.name);
+	
 	$maxCount = 0;
 	
 	if(strncmp("/", @fullPath[0], 1) == 1){
@@ -851,8 +838,8 @@ tracepoint:syscalls:sys_exit_openat
 			}
 			$count++;
 		}
-	}
-
+	} 
+	
 	printf("VFS: Path: ");
 	
 	while($maxCount >= 0){
@@ -864,14 +851,11 @@ tracepoint:syscalls:sys_exit_openat
 		$maxCount--;
 	}
 	
+	$fileFlags = args->file->f_flags;
+	
+	printf("%s, Program: %s, Tid: %d, Mode: Open, Flags: %x, Return: %d\n", $fileName, comm, tid, $fileFlags, retval);
+	
 	clear(@fullPath);
-	
-	printf("%s, Program: %s, Tid: %d, Mode: Open, Flags: %d, Return: %d\n", @openFilename[tid], comm, tid, @openFlags[tid], args->ret);
-	
-	delete(@openFilename[tid]);
-	delete(@openFlags[tid]);
-	delete(@openFileobject[tid]);
-	delete(@openFilenamePtr[tid]);
 }
 
 // Numbered Devices
@@ -879,13 +863,13 @@ tracepoint:syscalls:sys_exit_openat
 kretfunc:blkdev_open
 /comm == str($1)/
 {
-	printf("Device: Type: Block, Major: %d, Minor: %d, Flags: %d, Return: %d\n", (args->inode->i_rdev >> 20), (args->inode->i_rdev & ((1 << 20)-1)), args->inode->i_flags, retval);
+	printf("Device: Type: Block, Major: %d, Minor: %d, Flags: %x, Return: %d\n", (args->inode->i_rdev >> 20), (args->inode->i_rdev & ((1 << 20)-1)), args->inode->i_flags, retval);
 }
 
 kretfunc:chrdev_open
 /comm == str($1)/
 {
-	printf("Device: Type: Char, Major: %d, Minor: %d, Flags: %d, Return: %d\n", (args->inode->i_rdev >> 20), (args->inode->i_rdev & ((1 << 20)-1)), args->inode->i_flags, retval);
+	printf("Device: Type: Char, Major: %d, Minor: %d, Flags: %x, Return: %d\n", (args->inode->i_rdev >> 20), (args->inode->i_rdev & ((1 << 20)-1)), args->inode->i_flags, retval);
 }
 
 // Signal Functions
@@ -1028,4 +1012,5 @@ END
 	clear(@openFileobject);
 	clear(@openFilenamePtr);
 	clear(@cap);
+	clear(@fullPath);
 }

@@ -93,12 +93,12 @@ class TraceToPolicy():
         for t in vfsTraces:
             # Negative result = restrict
             if(not "Return: -" in t):
-                if 'Path: /0' in t or 'Path: /1' in t or 'Path: /2' in t:
+                if 'Path: /0' in t or 'Path: /1' in t or 'Path: /2' or 'Path: /tty' in t:
                     terminal_device = True
                 if 'Path: /null' in t:
                     null_device = True
             else:
-                if 'Path: /0' in t or 'Path: /1' in t or 'Path: /2' in t:
+                if 'Path: /0' in t or 'Path: /1' in t or 'Path: /2' or 'Path: /tty' in t:
                     terminal_device_deny = True
                 if 'Path: /null' in t:
                     null_device_deny = True
@@ -126,20 +126,17 @@ class TraceToPolicy():
         for dev in numdev_matches:
             if(allowBool):
                 if(int(dev[3]) >= 0):
-                    decimalFlags = int(dev[2], 10)
-                    ocatalNoPad = np.base_repr(decimalFlags, 8) # Decimal to octal
-                    if(decimalFlags == 0):
-                        octalFlagsPadded = np.base_repr(decimalFlags, 8, 8) # Pad with 8 if we have 0
+                    hexadecimalFlags = int(dev[2], 16)
+                    ocatalNoPad = np.base_repr(hexadecimalFlags, 8) # hexadecimal to octal
+                    if(hexadecimalFlags == 0):
+                        octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8) # Pad with 8 if we have 0
                     else:
-                        octalFlagsPadded = np.base_repr(decimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                        octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8-len(ocatalNoPad)) # Pad
                     # Add rights
                     if not dev[0] in numdev_access_map.keys():
                         if(octalFlagsPadded[7] == '0'):
                             # Read only
                             numdev_access_map[dev[0]] = ['r']
-                        elif(octalFlagsPadded[7] == '3'):
-                            # Access
-                            numdev_access_map[dev[0]] = ['a']
                         elif(octalFlagsPadded[7] == '1'):
                             # Write only
                             numdev_access_map[dev[0]] = ['w']
@@ -150,9 +147,6 @@ class TraceToPolicy():
                         if(octalFlagsPadded[7] == '0') and not "r" in numdev_access_map[dev[0]]:
                             # Read only
                             numdev_access_map[dev[0]].append('r')
-                        elif(octalFlagsPadded[7] == '3') and not "a" in numdev_access_map[dev[0]]:
-                            # Access
-                            numdev_access_map[dev[0]].append('a')
                         elif(octalFlagsPadded[7] == '1') and not "w" in numdev_access_map[dev[0]]:
                             # Write only
                             numdev_access_map[dev[0]].append('w')
@@ -162,20 +156,17 @@ class TraceToPolicy():
                             numdev_access_map[dev[0]].append('w')
             if(not allowBool):
                 if(int(dev[3]) < 0):
-                    decimalFlags = int(dev[2], 10)
-                    ocatalNoPad = np.base_repr(decimalFlags, 8) # Decimal to octal
-                    if(decimalFlags == 0):
-                        octalFlagsPadded = np.base_repr(decimalFlags, 8, 8) # Pad with 8 if we have 0
+                    hexadecimalFlags = int(dev[2], 16)
+                    ocatalNoPad = np.base_repr(hexadecimalFlags, 8) # hexadecimal to octal
+                    if(hexadecimalFlags == 0):
+                        octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8) # Pad with 8 if we have 0
                     else:
-                        octalFlagsPadded = np.base_repr(decimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                        octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8-len(ocatalNoPad)) # Pad
                     # Add rights
                     if not dev[0] in numdev_access_map.keys():
                         if(octalFlagsPadded[7] == '0'):
                             # Read only
                             numdev_access_map[dev[0]] = ['r']
-                        elif(octalFlagsPadded[7] == '3'):
-                            # Access
-                            numdev_access_map[dev[0]] = ['a']
                         elif(octalFlagsPadded[7] == '1'):
                             # Write only
                             numdev_access_map[dev[0]] = ['w']
@@ -186,9 +177,6 @@ class TraceToPolicy():
                         if(octalFlagsPadded[7] == '0') and not "r" in numdev_access_map[dev[0]]:
                             # Read only
                             numdev_access_map[dev[0]].append('r')
-                        elif(octalFlagsPadded[7] == '3') and not "a" in numdev_access_map[dev[0]]:
-                            # Access
-                            numdev_access_map[dev[0]].append('a')
                         elif(octalFlagsPadded[7] == '1') and not "w" in numdev_access_map[dev[0]]:
                             # Write only
                             numdev_access_map[dev[0]].append('w')
@@ -244,18 +232,16 @@ class TraceToPolicy():
                 elif len(re.findall(open_regex, line)):
                     if(int(re.findall(open_regex, line)[0][2]) >= 0):
                         # Parse the flags
-                        decimalFlags = int(re.findall(open_regex, line)[0][1], 10)
-                        ocatalNoPad = np.base_repr(decimalFlags, 8) # Decimal to octal
-                        if(decimalFlags == 0):
-                            octalFlagsPadded = np.base_repr(decimalFlags, 8, 8) # Pad with 8 if we have 0
+                        hexadecimalFlags = int(re.findall(open_regex, line)[0][1], 16)
+                        ocatalNoPad = np.base_repr(hexadecimalFlags, 8) # hexadecimal to octal
+                        if(hexadecimalFlags == 0):
+                            octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8) # Pad with 8 if we have 0
                         else:
-                            octalFlagsPadded = np.base_repr(decimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                            octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                        # Check Read, and write via the last digit
                         if(octalFlagsPadded[7] == '0'):
                             # Read only
                             read_paths.append(re.findall(open_regex, line)[0][0])
-                        elif(octalFlagsPadded[7] == '3'):
-                            # Access
-                            access_paths.append(re.findall(open_regex, line)[0][0])
                         elif(octalFlagsPadded[7] == '1'):
                             # Write only
                             write_paths.append(re.findall(open_regex, line)[0][0])
@@ -263,6 +249,10 @@ class TraceToPolicy():
                             # Read and Write
                             read_paths.append(re.findall(open_regex, line)[0][0])
                             write_paths.append(re.findall(open_regex, line)[0][0])
+                        # Check execute via a bitwise and
+                        if(hexadecimalFlags & 0o40 == 32):
+                            # Execute permissions
+                            execute_paths.append(re.findall(open_regex, line)[0][0])
                 elif len(re.findall(createdir_regex, line)):
                     if(int(re.findall(createdir_regex, line)[0][1]) >= 0):
                         # Write + Execute
@@ -299,18 +289,16 @@ class TraceToPolicy():
                 elif len(re.findall(open_regex, line)):
                     if(int(re.findall(open_regex, line)[0][2]) < 0):
                         # Parse the flags
-                        decimalFlags = int(re.findall(open_regex, line)[0][1], 10)
-                        ocatalNoPad = np.base_repr(decimalFlags, 8) # Decimal to octal
-                        if(decimalFlags == 0):
-                            octalFlagsPadded = np.base_repr(decimalFlags, 8, 8) # Pad with 8 if we have 0
+                        hexadecimalFlags = int(re.findall(open_regex, line)[0][1], 16)
+                        ocatalNoPad = np.base_repr(hexadecimalFlags, 8) # hexadecimal to octal
+                        if(hexadecimalFlags == 0):
+                            octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8) # Pad with 8 if we have 0
                         else:
-                            octalFlagsPadded = np.base_repr(decimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                            octalFlagsPadded = np.base_repr(hexadecimalFlags, 8, 8-len(ocatalNoPad)) # Pad
+                        # Check Read, and write via the last digit
                         if(octalFlagsPadded[7] == '0'):
                             # Read only
                             read_paths.append(re.findall(open_regex, line)[0][0])
-                        elif(octalFlagsPadded[7] == '3'):
-                            # Access
-                            access_paths.append(re.findall(open_regex, line)[0][0])
                         elif(octalFlagsPadded[7] == '1'):
                             # Write only
                             write_paths.append(re.findall(open_regex, line)[0][0])
@@ -318,6 +306,10 @@ class TraceToPolicy():
                             # Read and Write
                             read_paths.append(re.findall(open_regex, line)[0][0])
                             write_paths.append(re.findall(open_regex, line)[0][0])
+                        # Check execute via a bitwise and
+                        if(hexadecimalFlags & 0o40 == 32):
+                            # Execute permissions
+                            execute_paths.append(re.findall(open_regex, line)[0][0])
                 elif len(re.findall(createdir_regex, line)):
                     if(int(re.findall(createdir_regex, line)[0][1]) < 0):
                         # Write + Execute
@@ -364,6 +356,8 @@ class TraceToPolicy():
         # We handle these in the generate_device_access() method
         if '/null' in path_access_map.keys():
             del(path_access_map['/null'])
+        if '/tty' in path_access_map.keys():
+            del(path_access_map['/tty'])
         if '/0' in path_access_map.keys():
             del(path_access_map['/0'])  
         if '/1' in path_access_map.keys():
@@ -583,6 +577,9 @@ class GenerateResults():
     def __init__(self, traceFilePath, outputPolicyPath, procName, procPath) -> None:
         self.traceFileObject = TraceFile(traceFilePath, procName, procPath)
         self.policyStr = TraceToPolicy(self.traceFileObject).outputPolicyStr
+        # If operation is denied, it should not be in the allowed section
+        # for denyLine in self.policyStr.split('deny:')[1].splitlines():
+        #     for allowLine in self.policyStr.split('deny:')[0].splitlines():
         # Dont include restrictions section if no restrictions found
         splitPolicyNoNewlines = [f"{l}\n" for l in self.policyStr.splitlines() if l]
         splitPolicyNoNewlines = splitPolicyNoNewlines[0:-1] if splitPolicyNoNewlines[-1] == 'deny:\n' else splitPolicyNoNewlines
