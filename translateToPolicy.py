@@ -601,13 +601,6 @@ class GenerateResults():
             fout.write(self.policyStr)
 
 if __name__ == "__main__":
-    # Relvant arrays - For report
-    # with open(r"Output\reportCapSnip.txt", "w") as fx:
-    #     fx.writelines([x for x in traceF.vfsTraces if 'Tid: 12449' in x])
-    #     fx.writelines([x for x in traceF.pipeTraces if 'Return: 8' in x or 'Return: -' in x])
-    #     fx.writelines(traceF.sigTraces)
-    #     fx.writelines(traceF.capTraces)
-
     # Functions to ensure file types are correct
     def text_file(value):
         if not value.endswith('.txt'):

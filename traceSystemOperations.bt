@@ -940,7 +940,6 @@ kretfunc:pipe_read
 	}
 	
 	printf("%s, Program: %s, Mode: Read, Return: %d\n", $fileName, comm, retval);
-	
 	clear(@fullPath);
 }
 
