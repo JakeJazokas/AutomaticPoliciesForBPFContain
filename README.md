@@ -35,7 +35,7 @@ sudo bpftrace traceSystemOperations.bt <arg> > <traceFile>
 ```
 - `<arg>` represents the name of the program you wish to trace.
 - `<traceFile>` represents the path to the output (`.txt`) file that all traced operations will be logged to.
-
+&nbsp;
 
 ### Translation Subsystem
 
